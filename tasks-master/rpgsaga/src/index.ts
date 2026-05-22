@@ -1,5 +1,4 @@
-import { Game } from "./Game/Game";
-
-const game = new Game();
-
-game.start(4);
+export { Game } from "./game.js";
+export { HeroFactory } from "./heroFactory.js";
+export { Archer, Hero, Knight, Mage } from "./heroes.js";
+export { Logger } from "./logger.js";
