@@ -1,0 +1,21 @@
+{
+  "name": "tprogramming-2025",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:task3": "tsx task3.ts",
+    "start:task4": "tsx task4.ts",
+    "start:task5": "tsx task5.ts",
+    "test": "vitest run task3.test.ts task4.test.ts task5.test.ts",
+    "test:task3": "vitest run task3.test.ts",
+    "test:task4": "vitest run task4.test.ts",
+    "test:task5": "vitest run task5.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}
